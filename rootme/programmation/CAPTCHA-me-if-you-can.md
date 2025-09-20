@@ -10,8 +10,6 @@
 ## 🌍 Contexte
 Automatiser la résolution d’un CAPTCHA simple (OCR / parsing) ou contourner une protection basique.
 
----
-
 ## 🔍 Approche
 1. Tests manuels de la page web.
 2. Prototype OCR local avec pytesseract et OpenCV.
@@ -22,7 +20,6 @@ Automatiser la résolution d’un CAPTCHA simple (OCR / parsing) ou contourner u
 7. Maintien d'une session HTTP (requests.Session) pour POSTer le code rapidement.
 8. Boucle automatique jusqu'à validation et affichage de la page de succès contenant le mot de passe.
 
----
-
 ## ✅ Résultat
 Le script automatise GET -> OCR -> POST en conservant la session et affiche la page de validation contenant le mot de passe.
+
